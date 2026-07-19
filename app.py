@@ -862,7 +862,7 @@ Motivate the student with practical advice.
 Keep the response well formatted using bullet points.
 """
 
-        try:
+               try:
 
             with st.spinner("Generating Career Guidance..."):
 
@@ -887,3 +887,4 @@ Keep the response well formatted using bullet points.
                 st.metric("🎓 Education", education)
 
             with col3:
+                st.metric("⭐ Interest", interest)
